@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 10%;
+}
+.nav{
+    width: 100%;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav .logo{
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.nav .menü{
+    width: 100px;
+    cursor: pointer;
+}
+.nav ul li a{
+    flex: 1;
+    text-align: right;
+    margin-right: 80px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer ;
+    font-size: bold;
+    position: relative;
+    padding: 10px 20px;
+}
+.nav ul li a:hover{
+    color:blue;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    position: relative;
+}
+.Yemek{
+    width: 75%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px 7px rgb(168, 193, 230);
+}
+.indir{
+    width: 250px;
+    margin-top: 10px;
+    bottom: 10px;
+    left: 0;
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px 8px rgb(123, 156, 160);
+
+}
+.col h1{
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600px;
+
+}
+.col a{
+    text-decoration: none;
+    padding: 18px 50px;
+    border-radius: 30px;
+    background: yellowgreen;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 70px;
+    box-shadow: 5px 8px 10px rgb(168, 193, 230);
+}
