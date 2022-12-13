@@ -88,3 +88,11 @@
     margin-top: 70px;
     box-shadow: 5px 8px 10px rgb(168, 193, 230);
 }
+
+.col a:hover{
+    color: red;
+    background-color: yellow;
+    transition: 1s;
+    border: 10px;
+    border-color: red;
+}
